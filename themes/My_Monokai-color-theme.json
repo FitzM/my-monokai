@@ -1,0 +1,166 @@
+{
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#272822", // Unchanged
+				"foreground": "#F8F8F2" // Unchanged
+			}
+		},
+		{
+			"name": "Interface",
+			"scope": "entity.name.interface",
+			"settings": {
+				"foreground": "#d291ff" // Lighter purple
+			}
+		},
+		{
+			"name": "Type",
+			"scope": "entity.name.type",
+			"settings": {
+				"foreground": "#ce85ff" // Lighter purple
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#848482" // Slightly lighter grey
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#f2fff8" // Off-white with a green tint
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#B0A1FF" // Slightly lighter purple
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#ffffa1" // Brighter yellow
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#f25578" // Slightly lighter pink
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"foreground": "#FF6691" // Lighter pink
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#79D2FF" // Lighter cyan
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "entity.name.class",
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#B4E75A" // Slightly lighter green
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#49f4e0" // Lighter teal
+			}
+		},
+		{
+			"name": "Function argument",
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FFB56B" // Brighter orange
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#FF7F92" // Lighter pink
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#C1E784" // Lighter green
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#79D2FF" // Lighter cyan
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "#79D2FF" // Lighter cyan
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#79D2FF" // Lighter cyan
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"background": "#FF5A7A", // Slightly lighter red
+				"foreground": "#F8F8F0" // Unchanged
+			}
+		},
+		{
+			"name": "Invalid deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"background": "#B0A1FF", // Lighter purple
+				"foreground": "#F8F8F0" // Unchanged
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#36444b", // Unchanged
+		"editorCursor.foreground": "#F8F8F0", // Unchanged
+		"editor.foreground": "#F8F8F2", // Unchanged
+		"editorWhitespace.foreground": "#4B4A42", // Slightly lighter
+		"editor.lineHighlightBackground": "#48616b", // Slightly lighter
+		"editor.selectionBackground": "#5A5946", // Slightly lighter
+		"sideBar.background": "#424B58", // Slightly lighter
+		"sideBar.border": "#5C6F78", // Slightly lighter
+		"sideBarSectionHeader.background": "#5C6F78", // Slightly lighter
+		"activityBar.background": "#3E4E5A", // Slightly lighter
+		"activityBar.activeBackground": "#5C6F78" // Slightly lighter
+	},
+	"name": "My_Monokai"
+}
